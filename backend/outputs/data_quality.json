@@ -1,0 +1,9 @@
+{
+  "raw_rows": 305910,
+  "after_duplicate_removal": 298879,
+  "after_missing_value_handling": 294392,
+  "final_clean_rows": 292913,
+  "duplicates_removed": 7031,
+  "rows_dropped_missing": 4487,
+  "rows_dropped_invalid": 1479
+}

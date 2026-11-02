@@ -1,0 +1,1153 @@
+year_month,region,segment,orders,revenue
+2025-12,South India,Champions,916,878198.32
+2025-01,North India,Champions,423,396532.18
+2025-06,USA,Champions,246,248563.13
+2025-12,South India,Loyal,191,170439.72
+2025-07,West India,Loyal,87,77221.7
+2025-06,North India,Potential,65,47956.57
+2025-01,North India,Loyal,74,70700.54
+2025-06,North India,Loyal,79,65144.74
+2025-04,South India,Champions,489,465332.33
+2025-11,UK,Loyal,47,45256.3
+2025-07,UAE,Loyal,25,32464.32
+2025-10,South India,Potential,116,104372.69
+2025-02,South India,At Risk,66,50928.3
+2025-10,UAE,At Risk,10,6639.58
+2025-01,Central India,Potential,21,18301.78
+2025-06,South India,At Risk,63,38034.07
+2025-09,East India,At Risk,20,15735.08
+2025-03,Central India,Champions,106,113693.73
+2025-11,UAE,Potential,23,14062.14
+2025-04,North India,Loyal,74,57641.68
+2025-02,North India,Loyal,78,76772.83
+2024-10,South India,Champions,475,413913.45
+2024-02,UK,Loyal,27,20403.55
+2024-03,East India,Champions,132,101154.51
+2024-02,South India,Potential,58,63869.36
+2024-01,USA,Champions,198,199015.93
+2024-12,Central India,Champions,160,161516.86
+2024-09,West India,Champions,247,246401.23
+2024-07,USA,Champions,182,158107.21
+2024-10,West India,Loyal,91,69996.27
+2024-10,North India,Loyal,87,87670.96
+2024-07,West India,Loyal,59,46394.63
+2024-10,East India,Potential,35,36233.81
+2024-11,UK,At Risk,27,24483.46
+2024-06,East India,Champions,126,116192.08
+2024-03,USA,Potential,37,22948.67
+2024-01,UAE,Champions,127,100006.69
+2024-04,UAE,Champions,101,102757.35
+2024-01,North India,Loyal,62,62380.0
+2024-01,West India,At Risk,37,25721.37
+2024-10,UK,Potential,32,24706.26
+2024-08,North India,At Risk,43,32261.35
+2024-03,East India,At Risk,27,20507.51
+2024-12,UAE,Loyal,30,21262.99
+2024-09,West India,Loyal,57,45306.76
+2024-07,Central India,At Risk,12,9330.68
+2024-01,Central India,Champions,97,92018.13
+2023-05,North India,At Risk,36,20701.34
+2023-03,USA,Champions,149,135188.33
+2023-03,North India,Potential,42,40072.76
+2023-07,South India,Potential,44,37371.22
+2023-07,West India,Loyal,54,54395.52
+2023-08,West India,Potential,36,27268.06
+2023-02,West India,Champions,195,185434.7
+2023-06,UK,Loyal,33,30634.94
+2023-09,UK,Loyal,22,24321.94
+2023-01,East India,Loyal,42,34913.67
+2023-11,UK,Potential,30,23357.65
+2023-04,UAE,Loyal,17,13308.05
+2023-06,East India,Potential,20,24633.79
+2023-06,Central India,Champions,65,68801.81
+2025-07,UAE,Potential,22,13461.96
+2024-12,USA,Potential,43,44881.2
+2024-08,UAE,At Risk,21,19700.93
+2023-06,Central India,At Risk,12,7958.87
+2024-08,Central India,Potential,18,12289.13
+2023-09,UAE,At Risk,12,3961.03
+2025-04,East India,At Risk,29,20308.59
+2025-11,UK,Champions,169,177022.14
+2025-10,West India,At Risk,68,48895.56
+2025-05,USA,Champions,248,254733.1
+2025-01,West India,At Risk,49,36502.88
+2025-12,North India,Loyal,166,143108.95
+2025-03,North India,Champions,432,400027.62
+2025-06,UAE,Champions,128,115111.57
+2025-10,North India,Loyal,103,93295.77
+2025-09,UK,Loyal,41,27896.25
+2025-04,North India,At Risk,51,34874.97
+2025-08,West India,Champions,289,301058.3
+2025-10,USA,At Risk,27,23452.61
+2025-02,USA,Loyal,31,34474.21
+2025-12,East India,At Risk,15,8652.96
+2025-10,UAE,Potential,20,18544.93
+2025-05,North India,Loyal,88,85601.69
+2025-05,East India,Loyal,41,40215.51
+2025-09,Central India,Loyal,33,19582.62
+2024-01,South India,Loyal,80,66681.91
+2024-10,USA,Champions,210,187229.66
+2024-05,South India,Champions,339,342683.77
+2024-11,North India,Loyal,108,83349.33
+2024-05,UAE,Champions,111,74830.75
+2024-07,UK,Champions,82,80520.1
+2024-08,East India,Potential,31,25968.03
+2024-09,East India,Champions,134,116900.52
+2024-07,East India,Champions,118,106361.93
+2024-12,West India,At Risk,58,49129.85
+2024-09,UAE,Loyal,18,20174.42
+2024-05,USA,Champions,187,185115.63
+2024-11,UK,Potential,29,23815.3
+2024-11,UAE,At Risk,20,13963.77
+2024-08,East India,Loyal,28,26238.42
+2024-01,UK,Loyal,39,36724.52
+2024-10,USA,Potential,32,24291.33
+2024-01,USA,Potential,27,27298.95
+2023-04,North India,Potential,55,48201.01
+2024-04,USA,Loyal,31,20378.3
+2024-04,UAE,At Risk,10,5180.39
+2023-06,UK,Champions,66,64045.06
+2023-03,North India,Champions,267,246131.26
+2023-03,UK,Champions,89,101729.26
+2023-05,UK,Champions,62,53240.39
+2023-01,South India,Potential,59,47648.47
+2023-11,East India,Potential,27,25221.66
+2023-11,Central India,Champions,118,104127.0
+2023-10,UAE,Potential,16,11617.26
+2023-01,West India,Potential,48,63875.36
+2023-11,USA,Loyal,48,52667.76
+2023-01,South India,Loyal,68,56873.23
+2023-09,East India,At Risk,13,12496.95
+2023-07,UAE,Champions,82,71201.65
+2023-07,West India,At Risk,43,32782.85
+2023-05,West India,Loyal,52,58482.79
+2023-02,West India,Loyal,53,41408.03
+2023-12,UK,At Risk,22,15681.38
+2023-06,UK,At Risk,15,9602.19
+2023-03,UK,Potential,12,6595.03
+2023-08,East India,Potential,24,32169.04
+2025-08,UAE,At Risk,14,14034.12
+2024-10,UK,Loyal,27,23610.02
+2024-05,UAE,Potential,21,15822.67
+2024-09,UAE,At Risk,15,9941.03
+2023-03,USA,Loyal,22,29014.09
+2023-04,West India,At Risk,34,24430.66
+2023-05,UAE,At Risk,7,3784.97
+2025-09,Central India,At Risk,5,3250.33
+2024-03,East India,Potential,24,23657.14
+2025-03,UAE,Champions,119,128730.17
+2025-09,North India,Champions,415,376820.21
+2025-07,North India,Champions,449,389855.57
+2025-10,South India,Loyal,113,104040.01
+2025-02,West India,Loyal,72,53392.35
+2025-06,West India,Champions,285,285338.72
+2025-12,North India,Champions,869,858471.89
+2025-08,East India,Loyal,43,35022.77
+2025-09,West India,Champions,292,275373.01
+2025-09,South India,Potential,81,70743.79
+2025-10,Central India,Champions,156,153073.79
+2025-01,South India,Potential,81,75225.97
+2025-12,UK,Potential,40,32948.08
+2025-12,West India,Loyal,133,128931.29
+2025-02,Central India,Champions,95,65091.51
+2025-09,UK,At Risk,17,12253.24
+2025-02,South India,Loyal,83,75846.04
+2025-10,Central India,At Risk,20,15752.49
+2025-04,South India,At Risk,72,60039.33
+2025-11,East India,Potential,55,49638.53
+2025-07,Central India,Champions,115,126146.73
+2025-12,USA,Potential,47,26886.45
+2025-01,UAE,At Risk,13,8344.78
+2024-12,West India,Champions,462,491139.8
+2024-12,North India,At Risk,64,44081.42
+2024-01,South India,Champions,373,321906.57
+2024-09,UAE,Champions,112,94053.8
+2024-01,North India,Champions,346,336993.42
+2024-09,East India,Potential,33,26867.18
+2024-01,UK,Champions,94,80933.26
+2024-03,South India,Potential,64,50891.15
+2024-12,North India,Potential,95,101479.49
+2024-02,UAE,Loyal,22,28968.5
+2024-06,Central India,At Risk,19,12997.14
+2024-05,North India,Loyal,67,55233.35
+2024-08,West India,At Risk,46,30405.21
+2024-12,USA,Loyal,64,48515.44
+2024-05,USA,At Risk,23,16549.54
+2024-11,West India,Potential,69,67201.05
+2024-10,USA,Loyal,38,28261.9
+2024-07,UK,Potential,26,26569.9
+2024-11,East India,At Risk,39,28504.18
+2024-02,USA,Potential,25,21722.77
+2024-10,West India,Potential,68,61753.01
+2025-09,East India,Loyal,43,41305.62
+2024-10,West India,At Risk,61,45944.07
+2023-11,West India,Champions,339,297245.56
+2023-06,West India,Loyal,53,63788.04
+2023-12,UK,Champions,132,141833.38
+2023-09,South India,Champions,308,260723.47
+2023-08,USA,Champions,144,126876.59
+2023-04,USA,At Risk,17,12127.26
+2023-02,UAE,At Risk,15,19375.87
+2023-02,North India,Champions,283,306955.98
+2023-05,USA,Champions,146,111781.44
+2023-06,East India,Loyal,23,28293.73
+2023-03,Central India,Champions,72,69867.76
+2023-02,UAE,Champions,67,67962.26
+2023-01,Central India,Champions,62,56749.78
+2023-04,UK,At Risk,11,5158.75
+2023-12,UK,Potential,31,25707.61
+2023-02,South India,Potential,50,61011.45
+2023-04,West India,Potential,46,45652.71
+2023-10,East India,Loyal,34,36951.26
+2023-09,UK,At Risk,17,9365.8
+2023-05,West India,At Risk,34,23157.13
+2023-02,USA,Potential,20,19409.7
+2025-11,East India,At Risk,37,23540.16
+2025-03,West India,Potential,47,32412.3
+2025-04,UAE,Potential,17,15448.5
+2025-02,USA,At Risk,23,11936.08
+2024-01,East India,Potential,20,11935.19
+2023-09,North India,At Risk,31,22649.65
+2023-10,Central India,Potential,16,11376.21
+2023-04,UAE,At Risk,13,9464.73
+2024-01,UAE,At Risk,16,17694.34
+2024-05,Central India,Loyal,27,31734.65
+2023-05,UK,Potential,15,15522.41
+2023-09,USA,At Risk,13,8969.22
+2025-08,USA,Champions,233,226423.75
+2025-11,South India,Potential,139,143397.26
+2025-08,South India,Loyal,88,83302.69
+2025-06,Central India,Loyal,25,32186.63
+2025-05,Central India,Champions,118,119899.49
+2025-06,West India,Loyal,85,101370.49
+2025-03,North India,Loyal,87,94279.01
+2025-01,USA,Loyal,39,33390.17
+2025-10,West India,Potential,65,51773.54
+2025-08,UK,Champions,113,112586.2
+2025-02,UAE,Champions,99,93463.31
+2025-07,North India,Loyal,81,72004.96
+2025-05,Central India,Potential,16,15583.33
+2025-05,North India,At Risk,49,48892.98
+2025-07,Central India,Loyal,26,25581.66
+2025-03,USA,At Risk,28,16954.29
+2025-07,North India,Potential,74,68402.02
+2025-08,East India,At Risk,26,15707.86
+2025-06,Central India,At Risk,11,6218.48
+2024-01,North India,Potential,54,38106.3
+2024-11,UK,Loyal,30,15420.85
+2024-11,Central India,Champions,158,126670.37
+2024-08,West India,Champions,286,263506.43
+2024-02,South India,At Risk,37,32054.0
+2024-10,UAE,Champions,125,113937.2
+2024-06,North India,Loyal,58,54723.44
+2024-06,South India,At Risk,64,40434.09
+2024-06,West India,Champions,232,223740.71
+2024-12,UK,Potential,39,36066.45
+2024-06,Central India,Champions,92,91812.7
+2024-08,USA,Loyal,39,42367.43
+2024-08,West India,Loyal,60,55901.78
+2024-08,UK,Loyal,31,19205.42
+2024-10,UAE,Potential,24,21105.21
+2023-11,UAE,Loyal,34,40078.16
+2023-06,East India,Champions,99,107408.65
+2023-06,USA,Champions,144,139459.74
+2023-12,Central India,Potential,23,16139.93
+2023-08,East India,Champions,98,101503.3
+2023-05,South India,Champions,319,299388.9
+2023-10,East India,Potential,31,25392.14
+2023-12,East India,Champions,173,152604.8
+2023-08,West India,Loyal,49,44154.64
+2023-11,West India,Loyal,83,78930.51
+2023-09,Central India,Potential,11,16166.64
+2023-07,USA,At Risk,22,13160.34
+2023-03,West India,Potential,23,18669.0
+2023-10,USA,Champions,174,171305.49
+2023-06,UAE,Loyal,11,15665.11
+2023-01,West India,Loyal,49,38905.5
+2023-07,South India,Loyal,61,58294.43
+2023-07,East India,At Risk,16,19099.27
+2023-05,UAE,Potential,11,8758.77
+2023-01,West India,At Risk,33,21066.93
+2023-09,Central India,Loyal,21,19259.34
+2023-04,Central India,At Risk,10,6887.29
+2023-05,East India,Potential,26,31039.77
+2025-01,UK,Potential,26,23667.95
+2025-09,UAE,Potential,21,25130.97
+2025-02,UK,Potential,29,31418.17
+2025-12,UK,At Risk,5,5470.12
+2024-02,Central India,Potential,18,14757.48
+2024-09,East India,At Risk,16,18072.24
+2023-02,Central India,Loyal,12,10911.75
+2025-07,UAE,At Risk,14,5747.92
+2023-07,USA,Loyal,28,21034.1
+2023-06,East India,At Risk,26,11389.93
+2025-08,North India,Champions,426,413616.66
+2025-09,West India,At Risk,42,23473.31
+2025-08,USA,Potential,26,28485.99
+2025-09,West India,Loyal,93,76230.56
+2025-12,South India,Potential,122,109043.58
+2025-02,UK,At Risk,19,13442.33
+2025-01,UAE,Potential,22,26723.72
+2025-02,UK,Champions,94,80284.37
+2025-06,UAE,Loyal,27,28092.3
+2025-01,East India,Potential,31,40227.11
+2025-10,North India,At Risk,57,33267.95
+2025-02,East India,Champions,144,141589.79
+2025-05,West India,Potential,56,39373.18
+2025-05,South India,Potential,82,61125.39
+2025-03,UK,Potential,28,19736.97
+2025-06,South India,Potential,77,55629.26
+2025-08,UK,At Risk,22,17787.4
+2024-09,North India,Champions,390,354110.8
+2024-11,West India,Champions,396,348834.72
+2024-04,Central India,Champions,86,67335.38
+2024-01,Central India,Potential,14,13396.45
+2024-12,East India,Champions,220,206273.64
+2024-01,West India,Loyal,80,74460.47
+2024-08,UAE,Champions,100,94619.23
+2024-04,South India,At Risk,59,34353.35
+2024-06,South India,Loyal,69,70590.38
+2024-01,UK,At Risk,20,11070.56
+2024-10,Central India,Potential,31,20125.56
+2024-06,East India,Loyal,24,30754.42
+2024-04,East India,Loyal,31,30807.77
+2024-03,USA,Loyal,31,26283.47
+2023-03,Central India,Loyal,16,15781.26
+2023-02,South India,Champions,266,242339.38
+2023-11,South India,At Risk,66,39962.71
+2023-07,North India,Champions,331,283325.01
+2023-06,South India,Loyal,57,52575.76
+2023-11,UAE,Potential,20,15753.87
+2023-12,East India,Potential,47,55620.86
+2023-01,East India,Potential,23,15917.85
+2023-06,UK,Potential,17,18914.17
+2023-10,North India,Loyal,70,52310.05
+2023-02,USA,At Risk,19,17655.45
+2023-07,Central India,Champions,77,68998.2
+2023-09,UAE,Loyal,21,18293.59
+2023-04,UK,Loyal,19,16021.75
+2023-08,South India,Potential,56,49821.16
+2023-01,East India,At Risk,17,16281.45
+2023-11,Central India,Potential,17,20732.87
+2023-09,UAE,Potential,11,14543.3
+2023-04,UK,Potential,23,22144.52
+2023-05,USA,Potential,23,18238.65
+2023-09,USA,Loyal,24,24062.28
+2024-08,UK,Potential,36,33985.74
+2024-02,East India,Loyal,27,21540.01
+2024-02,Central India,Loyal,16,14340.73
+2024-03,USA,At Risk,15,12467.52
+2024-04,UK,At Risk,16,12139.09
+2023-12,USA,Potential,28,31858.97
+2024-09,UK,At Risk,13,7378.78
+2024-08,UK,At Risk,18,14508.25
+2024-08,East India,At Risk,24,17757.6
+2023-11,Central India,At Risk,17,13866.36
+2025-06,Central India,Potential,15,8519.51
+2025-12,East India,Champions,302,281638.3
+2025-05,South India,Loyal,83,70783.47
+2025-01,South India,Champions,458,456018.38
+2025-11,West India,Potential,72,75566.47
+2025-07,South India,Champions,447,459334.51
+2025-10,East India,Champions,185,166214.53
+2025-11,UAE,At Risk,14,8630.29
+2025-09,USA,Champions,226,194700.9
+2025-05,East India,Potential,38,32411.78
+2025-05,USA,Potential,41,38917.0
+2025-04,West India,At Risk,52,37610.31
+2025-10,UAE,Loyal,30,25175.85
+2025-12,North India,At Risk,26,13808.41
+2025-04,South India,Potential,68,70096.18
+2025-05,UK,Loyal,36,21670.35
+2025-03,West India,At Risk,55,34195.19
+2025-12,West India,At Risk,17,12028.97
+2025-12,East India,Loyal,95,81906.91
+2025-03,South India,Loyal,78,70928.79
+2025-01,North India,At Risk,43,29655.56
+2025-03,North India,At Risk,55,40317.33
+2024-07,North India,Champions,373,347189.54
+2024-11,UAE,Champions,175,193606.64
+2024-08,UK,Champions,107,106189.5
+2024-01,West India,Champions,246,250148.63
+2024-12,West India,Loyal,110,99442.3
+2024-05,South India,Loyal,69,84463.6
+2024-11,USA,Potential,49,49537.2
+2024-12,North India,Loyal,128,102804.92
+2024-01,West India,Potential,43,42636.84
+2024-04,East India,At Risk,20,21198.23
+2024-09,South India,Potential,48,47173.57
+2024-07,Central India,Potential,17,15783.91
+2024-12,East India,At Risk,42,32600.96
+2024-06,North India,Potential,49,47321.64
+2024-09,Central India,Champions,83,65113.77
+2024-05,North India,At Risk,58,41642.44
+2024-01,USA,At Risk,20,15424.31
+2024-12,UK,At Risk,33,27965.15
+2023-11,South India,Loyal,71,61864.05
+2023-06,West India,Champions,205,176088.74
+2023-11,North India,Loyal,79,57485.7
+2023-02,Central India,Champions,63,50500.35
+2023-05,USA,Loyal,32,28385.79
+2023-07,North India,At Risk,42,35655.69
+2023-09,North India,Potential,43,28938.96
+2023-11,North India,Potential,72,46238.82
+2023-04,South India,Potential,49,53467.19
+2023-10,Central India,Champions,97,99545.24
+2023-01,North India,Loyal,50,37479.29
+2023-02,West India,At Risk,30,31305.54
+2023-06,North India,At Risk,28,16759.1
+2023-01,North India,At Risk,35,26303.99
+2023-05,West India,Potential,51,43905.64
+2023-06,UAE,Potential,7,10621.65
+2023-12,UAE,Loyal,27,28203.92
+2023-10,Central India,Loyal,20,12172.84
+2025-09,UK,Potential,36,26837.01
+2024-08,North India,Potential,57,37183.69
+2024-03,Central India,At Risk,13,8587.5
+2024-07,UAE,At Risk,13,14797.28
+2024-07,East India,At Risk,29,18036.26
+2024-05,Central India,Potential,17,14604.42
+2023-02,UAE,Loyal,13,9435.84
+2023-04,UAE,Potential,8,11922.15
+2025-01,Central India,Loyal,27,20476.28
+2025-08,UAE,Potential,15,7219.19
+2023-06,USA,At Risk,14,13554.32
+2023-08,UAE,Loyal,8,7362.21
+2025-05,West India,Champions,323,297117.01
+2025-11,USA,Potential,42,43921.01
+2025-12,West India,Champions,613,538409.74
+2025-10,UK,Champions,150,149380.03
+2025-02,USA,Champions,210,187172.68
+2025-07,West India,Champions,322,322192.08
+2025-05,UAE,Champions,127,108168.22
+2025-01,South India,At Risk,65,52936.64
+2025-08,North India,At Risk,45,31943.6
+2025-10,UK,At Risk,14,10847.79
+2025-11,North India,Loyal,139,154335.36
+2025-01,USA,Champions,234,225733.32
+2025-02,Central India,At Risk,17,13835.15
+2025-01,North India,Potential,67,60970.8
+2025-05,UK,Champions,105,103417.44
+2025-01,UK,Champions,119,101040.98
+2025-05,East India,Champions,143,127100.54
+2025-06,UK,Champions,110,102990.95
+2025-01,East India,Champions,160,134295.11
+2025-10,East India,Loyal,54,44736.42
+2025-12,South India,At Risk,27,18920.95
+2025-08,UAE,Champions,131,119383.65
+2025-03,South India,Potential,73,63177.37
+2025-10,UAE,Champions,172,168604.77
+2025-09,UAE,Loyal,29,27206.96
+2025-04,USA,Potential,28,26611.57
+2025-07,UK,Potential,35,30245.14
+2025-12,UAE,At Risk,8,4894.11
+2024-11,North India,Champions,562,518399.48
+2024-04,North India,Loyal,69,47467.1
+2024-02,UAE,Potential,13,13661.46
+2024-07,South India,At Risk,46,39005.49
+2024-12,Central India,Potential,31,26469.69
+2024-10,USA,At Risk,39,25813.43
+2024-06,UAE,Champions,102,97906.08
+2024-03,North India,At Risk,58,46351.94
+2024-07,North India,Loyal,62,90466.62
+2024-03,North India,Champions,357,340816.28
+2024-09,Central India,Loyal,22,17832.69
+2024-12,South India,Potential,112,84910.92
+2024-11,Central India,Loyal,42,39242.18
+2024-11,USA,Loyal,62,80900.2
+2024-11,South India,At Risk,67,39436.79
+2024-11,West India,At Risk,65,38468.58
+2024-08,West India,Potential,44,32387.99
+2024-03,East India,Loyal,32,26590.81
+2024-04,UK,Potential,16,19224.06
+2023-09,North India,Champions,285,289574.05
+2023-05,East India,Champions,96,103412.1
+2023-11,North India,Champions,435,434497.91
+2023-05,Central India,At Risk,13,5190.38
+2023-02,East India,Champions,70,54180.4
+2023-02,North India,At Risk,33,24826.59
+2023-11,South India,Potential,83,76578.29
+2023-01,UK,Potential,14,16879.4
+2023-02,North India,Potential,35,23304.34
+2023-12,Central India,Champions,138,144714.85
+2023-05,Central India,Champions,76,74467.03
+2023-03,North India,Loyal,53,49138.5
+2023-11,UAE,Champions,124,123249.22
+2023-02,UK,Loyal,24,30154.88
+2023-01,Central India,At Risk,16,16782.83
+2023-08,UAE,Champions,100,88517.13
+2023-08,UAE,At Risk,12,8785.37
+2023-08,Central India,Loyal,28,18767.34
+2023-07,USA,Potential,21,19864.04
+2023-12,UAE,At Risk,16,10605.29
+2023-02,UK,Potential,13,12112.79
+2023-04,USA,Loyal,21,16866.52
+2023-03,UAE,Potential,17,9194.96
+2023-11,North India,At Risk,54,33531.95
+2023-08,USA,Loyal,23,19509.59
+2023-08,Central India,Potential,10,4180.55
+2025-04,USA,At Risk,17,13388.39
+2024-05,West India,Potential,43,36692.88
+2024-05,Central India,At Risk,20,15155.34
+2024-02,UAE,At Risk,15,7687.95
+2023-10,USA,Loyal,42,40101.26
+2023-08,UK,Loyal,22,20549.67
+2023-12,Central India,At Risk,19,9560.22
+2023-11,UAE,At Risk,16,12872.09
+2023-06,USA,Potential,17,10587.51
+2023-08,USA,At Risk,13,5481.13
+2025-03,UAE,At Risk,12,8456.96
+2023-12,USA,At Risk,36,22851.79
+2023-09,UK,Potential,13,6751.84
+2025-01,Central India,At Risk,11,11349.97
+2023-01,UK,At Risk,12,7835.37
+2024-09,Central India,Potential,16,8491.8
+2025-03,UK,Champions,102,71559.82
+2025-07,South India,At Risk,56,38303.07
+2025-06,USA,At Risk,25,21415.35
+2025-03,South India,Champions,454,473503.13
+2025-11,South India,Loyal,165,155003.87
+2025-08,North India,Potential,91,89006.92
+2025-07,South India,Potential,93,80022.5
+2025-12,USA,Loyal,91,65304.01
+2025-11,North India,Potential,95,81094.98
+2025-06,East India,Potential,31,27559.97
+2025-04,UK,Loyal,39,33651.54
+2025-07,West India,At Risk,50,37585.92
+2025-04,USA,Champions,219,203546.67
+2025-08,Central India,At Risk,19,14472.07
+2025-07,West India,Potential,47,36148.75
+2025-06,UAE,Potential,23,21946.74
+2025-03,Central India,Potential,18,13924.9
+2024-03,South India,Champions,367,360901.12
+2024-05,East India,At Risk,17,14241.62
+2024-11,North India,Potential,99,101723.24
+2024-12,UAE,Champions,159,147766.06
+2024-10,Central India,Champions,107,86778.76
+2024-04,USA,Champions,176,161065.62
+2024-06,UAE,Potential,20,16672.99
+2024-09,UK,Champions,72,82311.85
+2024-07,UAE,Champions,113,106285.64
+2024-05,South India,At Risk,43,41013.66
+2024-04,North India,At Risk,52,30659.32
+2024-06,North India,At Risk,43,35076.58
+2024-11,East India,Loyal,41,35758.46
+2024-11,East India,Potential,40,32932.13
+2024-01,USA,Loyal,34,32239.03
+2024-06,West India,Loyal,61,65522.94
+2024-01,South India,Potential,70,55335.4
+2024-01,South India,At Risk,49,37850.92
+2024-05,West India,At Risk,48,31220.02
+2024-03,UK,Potential,26,18967.56
+2024-06,UAE,Loyal,23,15207.8
+2023-08,Central India,At Risk,11,6122.5
+2023-12,South India,Champions,557,511171.47
+2023-12,North India,Potential,86,78851.5
+2025-08,Central India,Potential,17,16776.8
+2024-09,UAE,Potential,20,19827.51
+2024-10,UK,At Risk,24,23148.24
+2024-06,UK,At Risk,17,12833.01
+2023-02,South India,At Risk,30,29193.67
+2023-11,South India,Champions,510,472015.18
+2023-09,East India,Loyal,22,13381.47
+2023-09,West India,Champions,201,160395.83
+2023-10,West India,Champions,255,237822.08
+2023-10,South India,Loyal,76,69500.06
+2023-11,Central India,Loyal,30,47138.13
+2023-05,South India,Loyal,54,56082.31
+2023-11,East India,Loyal,39,33875.03
+2023-01,USA,At Risk,14,10474.1
+2023-05,North India,Loyal,74,62623.38
+2023-10,UK,Loyal,29,24031.66
+2023-10,UK,Champions,93,105896.84
+2023-10,West India,At Risk,53,48065.01
+2023-01,South India,At Risk,46,33743.49
+2023-09,Central India,At Risk,13,12344.69
+2023-02,East India,Loyal,27,28217.87
+2023-09,West India,At Risk,54,27687.72
+2023-02,West India,Potential,21,27260.84
+2023-10,North India,Potential,63,55588.55
+2023-07,USA,Champions,163,148286.58
+2023-02,Central India,At Risk,11,5123.3
+2023-12,Central India,Loyal,31,27428.62
+2023-06,North India,Potential,38,17739.54
+2023-06,West India,At Risk,31,25524.79
+2023-08,UK,Champions,89,86102.3
+2023-06,Central India,Potential,8,4415.53
+2023-07,South India,At Risk,40,29765.3
+2023-05,UAE,Loyal,19,10611.15
+2025-02,South India,Potential,64,68226.98
+2023-03,Central India,Potential,14,9229.6
+2023-05,Central India,Loyal,22,20382.32
+2023-08,UAE,Potential,12,14546.02
+2023-03,East India,At Risk,17,8774.47
+2023-07,UAE,Loyal,13,5792.02
+2025-08,South India,Champions,447,412043.18
+2025-10,West India,Loyal,99,101299.71
+2025-03,South India,At Risk,60,36137.35
+2025-11,UK,Potential,38,22106.32
+2025-11,East India,Loyal,79,77013.77
+2025-10,North India,Potential,95,76923.05
+2025-12,UK,Champions,217,197314.94
+2025-01,UAE,Champions,107,104396.54
+2025-10,East India,Potential,43,33769.9
+2025-08,USA,Loyal,46,48463.5
+2025-05,USA,Loyal,28,23109.03
+2025-05,West India,At Risk,44,29558.83
+2025-08,UAE,Loyal,18,14244.11
+2025-03,USA,Loyal,43,29908.66
+2025-11,Central India,Loyal,46,58847.7
+2025-05,UAE,At Risk,19,28317.9
+2025-08,UK,Loyal,33,33497.59
+2025-10,East India,At Risk,18,9233.42
+2025-11,Central India,At Risk,12,6503.19
+2024-12,West India,Potential,101,94182.57
+2024-02,West India,Potential,41,35960.24
+2024-07,South India,Potential,62,75293.73
+2024-04,North India,Champions,345,320701.4
+2024-02,West India,Loyal,60,60503.29
+2024-08,USA,Champions,192,200386.69
+2024-03,West India,Loyal,80,78609.2
+2024-08,Central India,Champions,98,102008.59
+2024-10,UK,Champions,125,119739.96
+2024-05,West India,Loyal,78,77788.58
+2024-07,USA,Loyal,42,35262.51
+2024-04,UK,Loyal,28,23090.01
+2024-10,North India,Potential,69,64850.12
+2024-05,East India,Potential,36,32103.06
+2024-05,East India,Loyal,31,25107.62
+2024-07,USA,At Risk,24,20795.41
+2024-02,West India,At Risk,29,28093.96
+2023-08,North India,Champions,312,286512.58
+2025-09,West India,Potential,52,37743.92
+2024-04,West India,At Risk,39,24290.57
+2024-03,Central India,Champions,85,71843.26
+2023-10,North India,Champions,378,327954.52
+2023-10,UK,At Risk,21,14196.06
+2023-09,West India,Potential,41,32532.84
+2023-04,Central India,Potential,24,17115.86
+2023-08,East India,Loyal,34,27872.03
+2023-10,UAE,At Risk,19,14079.7
+2023-12,East India,Loyal,48,32460.83
+2023-09,USA,Potential,21,14664.46
+2023-12,UAE,Champions,144,158924.88
+2023-03,South India,Loyal,62,50829.19
+2023-07,West India,Potential,40,48621.55
+2023-09,North India,Loyal,65,58549.58
+2023-03,South India,At Risk,35,19548.26
+2023-10,Central India,At Risk,15,9701.98
+2023-08,North India,At Risk,34,22926.35
+2023-09,South India,At Risk,39,25641.29
+2023-11,USA,At Risk,41,18924.94
+2023-03,USA,At Risk,12,8371.91
+2023-12,East India,At Risk,43,22340.18
+2023-06,South India,At Risk,36,20177.89
+2025-05,Central India,At Risk,23,15709.1
+2025-12,Central India,At Risk,12,7528.28
+2025-04,Central India,Potential,16,9974.29
+2023-04,East India,Potential,22,26802.63
+2024-06,USA,Loyal,29,29977.79
+2025-03,USA,Champions,220,206129.87
+2025-09,UAE,At Risk,13,9006.44
+2025-10,USA,Champions,341,324099.29
+2025-09,USA,At Risk,18,12385.65
+2025-07,USA,Champions,239,206068.22
+2025-11,UAE,Champions,183,197490.89
+2025-04,UK,Champions,114,109509.19
+2025-07,East India,Potential,34,25852.41
+2025-09,North India,Loyal,93,118444.6
+2025-02,North India,Potential,66,55901.16
+2025-12,West India,Potential,82,49962.14
+2025-05,South India,At Risk,48,30019.98
+2025-05,Central India,Loyal,29,21595.57
+2025-06,West India,At Risk,45,32805.17
+2025-01,West India,Loyal,100,81481.27
+2025-02,USA,Potential,29,23185.01
+2025-06,UK,Potential,28,26759.25
+2025-02,East India,Potential,25,26316.54
+2025-08,West India,At Risk,47,23389.29
+2025-08,South India,Potential,82,72257.75
+2024-09,South India,Champions,374,351768.85
+2024-11,South India,Champions,589,537868.42
+2024-12,USA,Champions,348,308321.92
+2024-12,South India,Champions,686,715418.56
+2024-12,UAE,Potential,24,22766.96
+2024-08,USA,At Risk,26,18950.09
+2024-08,South India,Champions,373,381909.99
+2024-03,North India,Potential,51,46550.3
+2024-04,South India,Loyal,70,67539.09
+2024-10,East India,At Risk,31,19308.53
+2024-11,UAE,Loyal,25,23112.07
+2024-10,Central India,Loyal,31,27235.91
+2024-12,East India,Potential,56,55153.42
+2024-06,UAE,At Risk,12,7899.85
+2024-06,UK,Champions,87,86221.68
+2024-12,Central India,At Risk,28,20933.85
+2024-11,USA,At Risk,36,20373.62
+2024-04,USA,At Risk,27,20479.47
+2024-03,UAE,At Risk,13,11590.24
+2024-08,South India,At Risk,55,50158.99
+2024-08,Central India,At Risk,13,4044.5
+2023-04,West India,Champions,205,182422.58
+2023-05,North India,Champions,291,270258.68
+2023-04,South India,Loyal,48,42098.33
+2023-12,West India,Potential,80,67545.52
+2023-01,North India,Champions,283,271458.22
+2023-06,West India,Potential,32,26108.02
+2023-04,Central India,Champions,70,70554.67
+2023-01,West India,Champions,214,185154.15
+2023-10,UK,Potential,22,19174.45
+2023-05,UK,At Risk,17,13124.13
+2023-03,West India,Loyal,64,56384.44
+2023-05,South India,At Risk,48,24786.47
+2023-04,UAE,Champions,82,54521.58
+2023-12,UAE,Potential,33,30917.26
+2023-10,USA,At Risk,25,12722.63
+2023-06,Central India,Loyal,22,22555.55
+2025-08,UK,Potential,23,26615.83
+2025-05,UK,At Risk,22,5951.47
+2025-12,UAE,Potential,22,11658.14
+2025-09,North India,At Risk,37,29175.56
+2024-08,USA,Potential,26,20012.3
+2024-10,Central India,At Risk,16,9416.13
+2023-05,USA,At Risk,21,15109.33
+2023-04,East India,Loyal,24,15894.34
+2024-04,Central India,At Risk,14,7835.63
+2023-03,USA,Potential,13,15202.49
+2023-01,UAE,At Risk,13,9413.72
+2025-09,East India,Potential,33,27754.88
+2025-11,West India,Loyal,125,114956.0
+2025-07,UK,At Risk,20,17659.11
+2025-06,North India,Champions,429,382562.62
+2025-02,West India,Potential,43,36593.84
+2025-10,USA,Loyal,46,70697.83
+2025-10,UK,Loyal,46,40461.27
+2025-07,UAE,Champions,111,109361.22
+2025-04,North India,Potential,70,63918.83
+2025-07,Central India,Potential,22,23971.73
+2025-09,USA,Loyal,38,32264.7
+2025-06,East India,Champions,143,119078.63
+2025-08,South India,At Risk,53,33257.43
+2025-09,South India,Loyal,89,71993.41
+2025-09,UAE,Champions,114,114369.3
+2025-11,West India,At Risk,40,25054.96
+2025-02,UAE,Loyal,18,14641.83
+2025-12,Central India,Potential,39,22889.0
+2024-07,West India,Potential,44,30326.85
+2024-06,South India,Champions,363,365874.21
+2024-11,USA,Champions,300,293746.42
+2024-12,South India,At Risk,78,46048.49
+2024-07,South India,Champions,365,331238.11
+2024-06,USA,Champions,208,173475.66
+2024-11,Central India,Potential,27,24526.02
+2024-09,West India,Potential,47,50222.47
+2024-07,East India,Potential,32,23403.66
+2024-05,South India,Potential,82,65566.06
+2024-03,South India,Loyal,67,55055.11
+2024-07,UK,Loyal,42,50548.94
+2024-11,East India,Champions,187,194222.26
+2024-02,South India,Champions,354,354198.12
+2024-07,USA,Potential,31,27873.36
+2024-07,East India,Loyal,25,27256.41
+2024-12,UK,Loyal,39,39445.95
+2024-09,Central India,At Risk,14,12901.98
+2024-02,North India,Potential,64,63589.74
+2024-10,South India,Potential,85,72366.49
+2024-06,USA,At Risk,31,21410.44
+2024-04,West India,Loyal,73,54354.16
+2024-03,Central India,Potential,13,8333.54
+2024-04,UAE,Loyal,20,13295.79
+2024-04,Central India,Loyal,19,23347.08
+2024-01,UAE,Loyal,19,17363.39
+2024-09,North India,Potential,49,34536.29
+2024-09,USA,At Risk,23,14444.74
+2024-12,Central India,Loyal,33,21206.35
+2024-04,East India,Potential,18,10721.16
+2023-09,East India,Champions,97,111152.1
+2023-06,North India,Champions,288,286874.31
+2024-05,UK,At Risk,18,21213.24
+2024-06,Central India,Potential,14,13301.99
+2023-04,USA,Champions,148,138873.68
+2023-12,West India,At Risk,50,39210.62
+2023-02,USA,Champions,139,118459.34
+2023-09,USA,Champions,152,148514.45
+2023-11,UK,At Risk,18,14954.64
+2023-06,North India,Loyal,44,54681.33
+2023-10,UAE,Champions,112,100742.83
+2023-03,UAE,Loyal,21,18845.32
+2023-06,UAE,Champions,75,62234.03
+2023-03,East India,Potential,19,14247.97
+2023-04,East India,At Risk,30,25699.73
+2023-02,East India,Potential,20,10696.89
+2023-10,UAE,Loyal,20,12964.05
+2023-01,UAE,Potential,15,18077.34
+2023-03,UAE,At Risk,13,11389.14
+2023-08,North India,Potential,39,27365.82
+2023-12,UK,Loyal,41,32044.68
+2025-07,East India,At Risk,25,25835.54
+2025-03,UK,At Risk,28,12657.65
+2024-06,Central India,Loyal,23,16293.44
+2024-09,UK,Loyal,37,26711.47
+2024-04,UAE,Potential,14,10399.74
+2024-04,North India,Potential,53,44136.85
+2024-07,UAE,Potential,13,10204.91
+2023-01,UK,Loyal,21,25921.76
+2023-09,West India,Loyal,46,36630.81
+2023-04,Central India,Loyal,20,21840.93
+2023-09,South India,Potential,38,24452.28
+2023-02,UAE,Potential,11,7966.76
+2025-01,West India,Champions,309,290794.64
+2025-10,North India,Champions,617,555426.51
+2025-03,West India,Champions,293,288989.7
+2025-06,UK,At Risk,21,13808.87
+2025-10,South India,At Risk,60,44208.85
+2025-09,USA,Potential,27,16565.49
+2025-03,East India,At Risk,29,22808.34
+2025-02,East India,At Risk,27,30538.54
+2025-11,East India,Champions,234,220982.61
+2025-11,Central India,Champions,169,144393.73
+2025-08,East India,Champions,144,123966.61
+2025-04,West India,Potential,50,41763.66
+2025-02,UK,Loyal,28,27518.1
+2025-11,UAE,Loyal,43,49791.29
+2025-12,Central India,Loyal,50,31937.26
+2025-09,North India,Potential,59,60766.42
+2025-04,South India,Loyal,80,79391.5
+2025-03,UK,Loyal,33,35824.81
+2025-10,Central India,Loyal,19,16989.66
+2024-04,East India,Champions,126,126765.12
+2024-10,East India,Champions,131,110491.29
+2024-02,North India,Loyal,58,50023.33
+2024-02,UAE,Champions,108,84284.32
+2024-01,Central India,Loyal,24,22429.17
+2024-03,North India,Loyal,64,76618.83
+2024-03,South India,At Risk,52,37369.49
+2024-06,East India,Potential,24,35345.99
+2024-02,South India,Loyal,61,63103.13
+2024-10,East India,Loyal,42,38711.36
+2024-11,West India,Loyal,112,120543.15
+2024-02,North India,At Risk,39,28099.69
+2024-03,UK,Champions,82,94986.6
+2024-08,UAE,Potential,18,10857.96
+2024-02,USA,Loyal,24,23383.25
+2024-01,East India,Loyal,32,24186.98
+2024-08,South India,Loyal,67,61420.36
+2024-01,East India,At Risk,27,14628.08
+2024-10,North India,At Risk,55,38268.94
+2024-09,South India,Loyal,63,53523.32
+2024-07,UAE,Loyal,25,20743.46
+2023-03,South India,Champions,308,267975.77
+2023-01,South India,Champions,276,289392.02
+2023-03,South India,Potential,68,62876.0
+2023-11,USA,Champions,263,267168.22
+2023-09,UAE,Champions,82,64773.07
+2023-03,North India,At Risk,36,26122.69
+2023-07,West India,Champions,224,207477.03
+2023-05,South India,Potential,60,63043.9
+2023-04,South India,At Risk,47,32716.33
+2023-10,South India,Champions,394,360422.04
+2023-12,South India,Loyal,106,130706.28
+2023-04,South India,Champions,280,269919.56
+2023-01,East India,Champions,81,66094.8
+2023-10,West India,Potential,38,36644.72
+2023-08,West India,At Risk,37,22480.0
+2023-11,UK,Loyal,35,31230.48
+2023-12,USA,Champions,308,286095.33
+2023-08,North India,Loyal,56,50293.5
+2023-11,West India,Potential,73,53157.53
+2023-08,Central India,Champions,78,66127.29
+2023-11,USA,Potential,33,27454.92
+2023-02,Central India,Potential,11,9805.86
+2023-01,Central India,Potential,18,15139.71
+2023-08,East India,At Risk,27,18615.99
+2023-07,UK,Potential,20,13543.42
+2023-08,USA,Potential,20,20330.47
+2025-08,USA,At Risk,25,20326.16
+2025-12,USA,At Risk,9,4515.55
+2025-02,Central India,Potential,15,12720.04
+2023-07,East India,Potential,25,20462.35
+2023-01,Central India,Loyal,14,15417.3
+2025-05,East India,At Risk,28,28991.3
+2024-01,Central India,At Risk,13,6635.69
+2023-06,UAE,At Risk,21,14198.82
+2023-10,USA,Potential,24,22429.43
+2025-10,South India,Champions,605,517079.88
+2025-03,North India,Potential,70,74202.64
+2025-08,North India,Loyal,69,59744.21
+2025-11,North India,Champions,737,648951.88
+2025-09,South India,Champions,445,425966.3
+2025-09,UK,Champions,108,92088.48
+2025-04,North India,Champions,406,419089.97
+2025-07,South India,Loyal,81,85656.28
+2025-03,Central India,Loyal,24,23359.12
+2025-07,USA,Loyal,32,31094.68
+2025-01,West India,Potential,52,52096.26
+2025-01,South India,Loyal,93,100934.6
+2025-11,USA,At Risk,33,21113.5
+2025-10,USA,Potential,34,42162.58
+2025-05,USA,At Risk,30,32993.82
+2025-01,UK,Loyal,35,22636.67
+2025-05,UAE,Potential,22,19904.15
+2025-01,UK,At Risk,22,10825.03
+2025-07,USA,At Risk,23,11055.61
+2025-12,North India,Potential,93,84536.65
+2025-01,USA,At Risk,27,17695.51
+2025-02,North India,At Risk,39,37158.6
+2025-07,Central India,At Risk,10,5080.83
+2025-06,East India,At Risk,25,17937.48
+2025-06,West India,Potential,48,32743.8
+2024-10,North India,Champions,495,459568.12
+2024-12,North India,Champions,713,655954.95
+2024-08,South India,Potential,71,58420.52
+2024-06,East India,At Risk,19,17283.0
+2024-07,West India,Champions,270,245138.9
+2024-05,West India,Champions,233,231859.06
+2024-02,Central India,Champions,89,68738.11
+2024-12,UK,Champions,185,156925.15
+2024-06,West India,Potential,49,40655.73
+2024-04,West India,Champions,269,224791.32
+2024-02,UK,Champions,96,97902.9
+2024-05,UAE,Loyal,20,16267.57
+2024-11,South India,Potential,110,79264.32
+2024-08,East India,Champions,107,96381.44
+2024-11,South India,Loyal,104,85546.84
+2024-10,UAE,Loyal,23,23736.73
+2024-09,North India,Loyal,55,42780.16
+2024-03,West India,Champions,228,208898.35
+2024-07,West India,At Risk,52,52399.82
+2024-05,East India,Champions,124,94731.93
+2024-03,West India,Potential,35,26194.03
+2024-06,West India,At Risk,39,27250.23
+2024-12,USA,At Risk,39,28765.7
+2024-04,South India,Potential,59,56078.46
+2024-09,East India,Loyal,32,30817.73
+2024-03,UK,At Risk,18,8738.95
+2024-11,North India,At Risk,74,51772.27
+2023-02,East India,At Risk,17,11675.73
+2023-03,West India,Champions,232,230080.4
+2023-12,West India,Loyal,80,64073.1
+2023-11,UK,Champions,102,104055.25
+2023-07,UAE,Potential,13,12191.83
+2023-12,South India,Potential,93,88691.68
+2023-07,North India,Loyal,57,60622.19
+2023-07,East India,Champions,86,91975.02
+2023-02,South India,Loyal,56,44966.43
+2023-04,North India,Champions,282,255609.28
+2023-10,South India,At Risk,53,38845.02
+2023-01,USA,Loyal,31,44982.97
+2023-01,USA,Champions,166,164107.25
+2023-02,North India,Loyal,41,46790.2
+2023-11,West India,At Risk,52,28123.94
+2023-04,North India,Loyal,56,65671.71
+2023-11,East India,At Risk,30,20067.6
+2023-09,Central India,Champions,80,76968.82
+2023-09,South India,Loyal,59,53687.68
+2023-05,Central India,Potential,11,4430.06
+2025-05,UK,Potential,25,26609.43
+2025-04,East India,Loyal,47,33103.32
+2024-05,UK,Potential,23,17828.35
+2024-04,Central India,Potential,16,14057.91
+2024-01,UAE,Potential,17,22987.51
+2024-02,East India,At Risk,22,16503.54
+2023-07,Central India,At Risk,12,11882.62
+2025-03,Central India,At Risk,19,20570.88
+2024-08,UAE,Loyal,12,20316.52
+2025-05,South India,Champions,466,418348.25
+2025-05,North India,Champions,469,415929.8
+2025-11,South India,Champions,781,792464.89
+2025-03,East India,Champions,150,151799.51
+2025-07,North India,At Risk,66,51176.88
+2025-10,Central India,Potential,32,38027.22
+2025-04,East India,Potential,37,30782.12
+2025-08,West India,Potential,51,50244.96
+2025-06,UK,Loyal,31,21300.62
+2025-06,South India,Loyal,91,96296.09
+2025-12,UK,Loyal,76,70405.92
+2025-02,East India,Loyal,42,36603.39
+2025-02,West India,At Risk,42,22233.03
+2025-04,West India,Champions,298,286590.05
+2025-04,UK,Potential,32,22779.47
+2025-01,East India,At Risk,29,20764.41
+2025-06,USA,Potential,40,39897.05
+2025-11,UK,At Risk,23,10892.64
+2025-07,East India,Champions,139,126468.58
+2025-11,Central India,Potential,30,20669.91
+2025-02,UAE,At Risk,17,10864.33
+2025-03,East India,Loyal,35,31531.5
+2025-05,UAE,Loyal,21,18940.2
+2024-06,North India,Champions,370,347565.01
+2024-04,South India,Champions,365,327912.28
+2024-05,Central India,Champions,100,89184.39
+2024-11,Central India,At Risk,24,19492.67
+2024-09,USA,Champions,197,174831.59
+2024-02,North India,Champions,333,278685.33
+2024-02,East India,Potential,29,30166.88
+2024-02,USA,Champions,202,191882.82
+2024-03,UAE,Champions,94,104730.22
+2024-01,East India,Champions,130,125518.81
+2024-09,USA,Loyal,42,42636.79
+2024-07,North India,Potential,63,57671.2
+2024-10,South India,Loyal,83,88605.46
+2024-10,UAE,At Risk,12,6131.25
+2024-09,South India,At Risk,37,29740.73
+2024-04,UK,Champions,88,103707.72
+2024-05,USA,Potential,23,23005.43
+2024-09,West India,At Risk,52,34757.08
+2024-09,UK,Potential,17,14666.1
+2024-01,North India,At Risk,48,41801.14
+2024-05,UK,Loyal,18,22541.57
+2023-03,East India,Loyal,30,34288.42
+2023-12,West India,Champions,376,376194.33
+2023-04,West India,Loyal,47,44589.2
+2023-07,UK,At Risk,13,13590.05
+2023-03,East India,Champions,88,93918.81
+2023-01,UK,Champions,70,77741.53
+2023-03,West India,At Risk,33,23610.2
+2023-07,South India,Champions,323,323519.92
+2023-06,South India,Potential,42,44315.33
+2023-10,East India,At Risk,25,11327.69
+2023-04,East India,Champions,81,79045.94
+2023-07,North India,Potential,53,54907.98
+2023-12,USA,Loyal,58,54894.25
+2023-07,Central India,Loyal,17,11839.18
+2023-10,North India,At Risk,41,35050.06
+2023-01,USA,Potential,20,18624.4
+2023-09,East India,Potential,33,31131.96
+2024-04,West India,Potential,53,57760.74
+2024-06,UK,Loyal,21,13091.19
+2023-05,East India,Loyal,27,28244.47
+2023-01,UAE,Loyal,14,9177.92
+2024-12,UAE,At Risk,24,16776.83
+2023-04,UK,Champions,60,55711.41
+2024-02,UK,At Risk,10,3614.95
+2025-02,North India,Champions,416,405748.24
+2025-02,South India,Champions,415,386169.9
+2025-08,Central India,Champions,123,97786.27
+2025-12,Central India,Champions,231,189613.13
+2025-10,West India,Champions,370,330418.51
+2025-10,UK,Potential,42,33373.5
+2025-06,South India,Champions,438,397434.25
+2025-03,East India,Potential,32,32286.37
+2025-12,UAE,Loyal,53,42177.27
+2025-03,West India,Loyal,82,85876.02
+2025-01,Central India,Champions,114,118745.01
+2025-04,Central India,Loyal,23,21446.67
+2025-08,East India,Potential,35,44245.58
+2025-06,North India,At Risk,45,35502.62
+2025-07,East India,Loyal,40,34771.97
+2025-04,East India,Champions,136,110755.61
+2025-07,UK,Champions,110,105972.23
+2025-01,East India,Loyal,43,54151.21
+2025-09,South India,At Risk,50,31742.32
+2025-11,South India,At Risk,65,37597.22
+2025-04,USA,Loyal,40,56212.03
+2025-04,West India,Loyal,77,79088.82
+2025-04,UK,At Risk,19,14160.67
+2025-07,UK,Loyal,34,34255.9
+2025-09,Central India,Potential,28,24516.2
+2025-11,North India,At Risk,55,34415.49
+2024-11,UK,Champions,113,101799.36
+2024-08,North India,Champions,374,358679.36
+2024-12,East India,Loyal,59,47225.83
+2024-02,West India,Champions,218,207063.49
+2024-06,UK,Potential,27,19322.55
+2024-07,Central India,Loyal,27,23742.19
+2024-10,West India,Champions,335,335718.46
+2024-08,North India,Loyal,79,70643.43
+2024-02,USA,At Risk,31,18390.68
+2024-01,UK,Potential,21,19802.65
+2024-05,UK,Champions,85,77180.0
+2024-03,West India,At Risk,42,23486.21
+2024-03,UAE,Loyal,19,17567.33
+2024-09,USA,Potential,30,24825.99
+2024-04,USA,Potential,25,20550.04
+2024-10,South India,At Risk,63,46450.85
+2024-08,Central India,Loyal,20,21623.8
+2023-12,North India,Champions,545,515241.79
+2023-11,East India,Champions,139,127269.81
+2023-06,USA,Loyal,35,34419.96
+2023-05,East India,At Risk,22,13638.7
+2023-03,UAE,Champions,90,96005.11
+2023-07,UK,Champions,66,66386.45
+2025-01,UAE,Loyal,22,20086.62
+2024-07,North India,At Risk,52,49676.45
+2023-04,North India,At Risk,32,22257.05
+2023-07,UAE,At Risk,10,4827.89
+2025-02,Central India,Loyal,18,21294.74
+2024-05,UAE,At Risk,14,8772.78
+2025-11,West India,Champions,495,439086.57
+2025-12,UAE,Champions,247,229209.88
+2025-12,USA,Champions,478,440059.34
+2025-11,USA,Champions,384,341362.38
+2025-09,Central India,Champions,94,91780.15
+2025-04,UAE,Champions,119,101170.99
+2025-09,East India,Champions,150,121908.9
+2025-02,West India,Champions,278,234191.87
+2025-11,USA,Loyal,84,77100.8
+2025-04,Central India,Champions,114,84579.56
+2025-06,USA,Loyal,54,46907.67
+2025-06,Central India,Champions,112,97973.79
+2025-05,North India,Potential,71,71694.95
+2025-05,West India,Loyal,73,79833.55
+2025-03,UAE,Loyal,28,28783.03
+2025-12,East India,Potential,40,35240.68
+2025-03,USA,Potential,25,14707.04
+2025-01,USA,Potential,37,28552.2
+2025-07,USA,Potential,24,11513.65
+2025-08,West India,Loyal,97,97800.18
+2025-02,UAE,Potential,18,9427.44
+2025-06,East India,Loyal,44,36962.22
+2025-08,Central India,Loyal,23,18729.82
+2025-04,UAE,Loyal,20,18871.74
+2024-05,USA,Loyal,31,25435.54
+2024-03,UAE,Potential,13,9198.77
+2024-07,Central India,Champions,84,83867.88
+2024-02,UK,Potential,24,19776.38
+2024-12,South India,Loyal,142,144796.2
+2024-09,North India,At Risk,54,32309.97
+2024-05,North India,Potential,44,45251.05
+2024-11,UAE,Potential,30,19458.14
+2024-06,South India,Potential,58,46549.49
+2024-03,USA,Champions,190,198306.87
+2024-07,South India,Loyal,75,82947.68
+2024-05,North India,Champions,357,315672.59
+2024-03,UK,Loyal,40,40089.23
+2024-02,East India,Champions,124,108590.9
+2024-06,USA,Potential,27,32805.69
+2024-02,Central India,At Risk,12,4928.97
+2023-08,South India,At Risk,44,26568.45
+2023-05,West India,Champions,230,186901.25
+2023-05,UAE,Champions,77,89150.61
+2023-08,South India,Champions,299,291900.87
+2023-01,UAE,Champions,57,63350.87
+2023-05,UK,Loyal,22,18777.75
+2023-06,South India,Champions,286,283109.27
+2023-10,East India,Champions,113,103068.84
+2023-12,North India,Loyal,105,89392.37
+2023-01,North India,Potential,52,54241.06
+2023-08,West India,Champions,191,199533.15
+2023-08,South India,Loyal,61,60808.53
+2023-02,USA,Loyal,28,26264.46
+2023-07,East India,Loyal,26,32891.37
+2023-03,UK,Loyal,28,29890.17
+2023-07,UK,Loyal,21,12938.23
+2023-05,North India,Potential,49,49861.74
+2023-04,USA,Potential,27,21840.34
+2023-10,West India,Loyal,68,61480.95
+2023-09,UK,Champions,69,53899.92
+2023-02,UK,Champions,66,56125.47
+2023-12,South India,At Risk,72,49143.64
+2023-10,South India,Potential,81,75696.57
+2023-08,UK,Potential,19,17276.45
+2023-12,North India,At Risk,53,32346.66
+2025-04,UAE,At Risk,15,9314.96
+2025-04,Central India,At Risk,14,7596.51
+2025-06,UAE,At Risk,19,19125.87
+2024-03,Central India,Loyal,24,17514.78
+2024-07,UK,At Risk,17,13210.04
+2023-03,UK,At Risk,12,13290.95
+2023-03,Central India,At Risk,14,9357.54
+2025-03,UAE,Potential,20,17776.81
+2023-02,UK,At Risk,7,2348.8
+2023-08,UK,At Risk,14,11284.34
+2023-07,Central India,Potential,6,4509.04

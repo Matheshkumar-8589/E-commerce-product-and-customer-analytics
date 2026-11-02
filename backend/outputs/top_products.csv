@@ -1,0 +1,51 @@
+product_id,product_name,category,units_sold,orders,revenue
+P0272,Electronics Item 272,Electronics,8526,3693,7655665.92
+P0239,Electronics Item 239,Electronics,9514,4072,7461735.06
+P0229,Electronics Item 229,Electronics,9404,4138,6862757.08
+P0058,Electronics Item 058,Electronics,5981,2584,4272288.11
+P0187,Electronics Item 187,Electronics,9457,4169,3134238.94
+P0291,Electronics Item 291,Electronics,3017,1330,2448054.14
+P0108,Electronics Item 108,Electronics,4352,1937,2023505.92
+P0336,Electronics Item 336,Electronics,8935,3971,1948187.4
+P0241,Sports Item 241,Sports,9374,4066,1895516.54
+P0098,Electronics Item 098,Electronics,4751,2094,1663657.67
+P0314,Home & Kitchen Item 314,Home & Kitchen,9370,3987,1491891.4
+P0027,Electronics Item 027,Electronics,1711,736,1318308.39
+P0311,Home & Kitchen Item 311,Home & Kitchen,9407,4121,1293650.64
+P0102,Fashion Item 102,Fashion,9170,3980,1274171.5
+P0123,Home & Kitchen Item 123,Home & Kitchen,9374,4067,1156376.64
+P0306,Home & Kitchen Item 306,Home & Kitchen,7073,3092,1132104.38
+P0316,Home & Kitchen Item 316,Home & Kitchen,9166,4057,1062706.04
+P0090,Fashion Item 090,Fashion,9557,4085,1034831.96
+P0032,Fashion Item 032,Fashion,9419,4103,1014803.06
+P0130,Fashion Item 130,Fashion,9463,4056,1005633.01
+P0079,Sports Item 079,Sports,9046,3899,984476.18
+P0386,Sports Item 386,Sports,4629,2026,949685.64
+P0117,Sports Item 117,Sports,4895,2081,921483.75
+P0176,Home & Kitchen Item 176,Home & Kitchen,4933,2095,900913.79
+P0255,Sports Item 255,Sports,9568,4088,894895.04
+P0271,Fashion Item 271,Fashion,9350,4032,845988.0
+P0301,Electronics Item 301,Electronics,2583,1129,819689.22
+P0088,Fashion Item 088,Fashion,9087,3932,819102.18
+P0009,Home & Kitchen Item 009,Home & Kitchen,3808,1631,760952.64
+P0220,Fashion Item 220,Fashion,5992,2559,712029.36
+P0204,Electronics Item 204,Electronics,747,328,648664.92
+P0300,Sports Item 300,Sports,9334,4000,634058.62
+P0357,Sports Item 357,Sports,2476,1085,577626.04
+P0127,Fashion Item 127,Fashion,3630,1590,542213.1
+P0065,Beauty Item 065,Beauty,9166,3985,526861.68
+P0313,Home & Kitchen Item 313,Home & Kitchen,2887,1242,523384.23
+P0170,Fashion Item 170,Fashion,9086,3939,521354.68
+P0398,Home & Kitchen Item 398,Home & Kitchen,3537,1572,520787.88
+P0356,Sports Item 356,Sports,5761,2532,514918.18
+P0083,Fashion Item 083,Fashion,9233,4011,502182.87
+P0236,Home & Kitchen Item 236,Home & Kitchen,3645,1632,501770.7
+P0066,Beauty Item 066,Beauty,9271,3953,497759.99
+P0214,Sports Item 214,Sports,6173,2710,488716.41
+P0085,Electronics Item 085,Electronics,1166,488,466190.12
+P0206,Electronics Item 206,Electronics,569,259,446921.05
+P0017,Electronics Item 017,Electronics,616,254,436140.32
+P0139,Electronics Item 139,Electronics,559,254,424403.98
+P0389,Toys Item 389,Toys,9535,4063,420016.75
+P0349,Electronics Item 349,Electronics,548,242,418365.12
+P0052,Sports Item 052,Sports,2182,937,393414.6

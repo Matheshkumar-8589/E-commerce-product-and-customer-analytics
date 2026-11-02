@@ -1,0 +1,33 @@
+segment,region,customers,avg_spend,avg_orders
+At Risk,South India,454,2911.1,4.19
+At Risk,West India,395,2861.73,4.1
+At Risk,East India,221,3035.6,4.08
+At Risk,North India,409,2961.67,4.07
+Potential,South India,410,5877.58,6.51
+At Risk,UAE,128,3095.88,4.06
+At Risk,USA,215,2797.4,4.04
+Potential,USA,161,5725.67,6.45
+At Risk,Central India,134,2797.81,3.99
+At Risk,UK,151,3023.13,4.25
+Potential,North India,345,5921.99,6.64
+Potential,Central India,101,5398.56,6.63
+Potential,East India,173,6145.35,6.54
+Potential,UK,139,5725.24,6.67
+Potential,West India,275,5764.81,6.58
+Potential,UAE,91,6158.02,7.1
+Loyal,West India,293,8803.44,9.38
+Loyal,UK,127,8272.12,9.33
+Loyal,South India,326,8693.67,9.13
+Loyal,East India,147,8508.48,9.37
+Loyal,USA,164,8503.2,8.84
+Loyal,North India,306,8570.76,9.16
+Loyal,UAE,88,8502.61,9.18
+Loyal,Central India,96,8451.29,9.3
+Champions,UK,142,24996.96,25.92
+Champions,West India,408,23998.9,25.63
+Champions,East India,207,21883.46,23.76
+Champions,Central India,120,29015.25,31.61
+Champions,North India,453,31014.09,33.24
+Champions,South India,475,31054.96,32.63
+Champions,UAE,135,29221.32,30.93
+Champions,USA,186,39931.89,42.72

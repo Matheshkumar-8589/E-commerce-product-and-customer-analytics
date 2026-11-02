@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E-Commerce Analytics Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f4f5f1;--card:#fff;--ink:#17262b;--mut:#62737a;--line:#dfe3df;--a:#0f5257;--b:#e0a526;--c:#c8553d;--d:#6a8caf}
+@media (prefers-color-scheme:dark){:root{--bg:#10191c;--card:#172327;--ink:#e6eeee;--mut:#8fa3a8;--line:#27373b;--a:#4fb3b8;--b:#e8b94a;--c:#e07a63;--d:#8fb0d1}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Source Sans 3",system-ui,sans-serif}
+header{padding:28px 32px 8px}
+h1{font:700 28px "Bricolage Grotesque",system-ui,sans-serif;margin:0}
+header p{margin:4px 0 0;color:var(--mut)}
+.filters{display:flex;flex-wrap:wrap;gap:12px;padding:16px 32px;position:sticky;top:0;background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
+.filters label{display:flex;flex-direction:column;font-size:13px;color:var(--mut);gap:2px}
+select,button{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);min-width:130px}
+button{cursor:pointer;align-self:flex-end;min-width:0}
+:focus-visible{outline:2px solid var(--a);outline-offset:2px}
+main{padding:20px 32px 40px;display:grid;gap:16px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:14px 16px}
+.kpi b{display:block;font:700 26px "Bricolage Grotesque",system-ui,sans-serif}
+.kpi span{font-size:13px;color:var(--mut)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(380px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px;min-width:0}
+.card h2{font:600 16px "Source Sans 3",sans-serif;margin:0 0 10px}
+.wide{grid-column:1/-1}
+canvas{max-height:300px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:6px 8px;text-align:left;border-bottom:1px solid var(--line)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.note{font-size:12px;color:var(--mut)}
+@media(max-width:600px){header,.filters,main{padding-left:16px;padding-right:16px}.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><h1>E-Commerce Analytics Dashboard</h1>
+<p>Customer behaviour and product trends, processed with Hadoop and Spark.</p></header>
+<section class="filters" aria-label="Filters">
+ <label>From month<select id="from"></select></label>
+ <label>To month<select id="to"></select></label>
+ <label>Category<select id="cat"></select></label>
+ <label>Customer segment<select id="seg"></select></label>
+ <label>Region<select id="reg"></select></label>
+ <button id="reset">Reset filters</button>
+</section>
+<main>
+ <div class="kpis" id="kpis"></div>
+ <div class="grid">
+  <div class="card wide"><h2>Revenue by month</h2><canvas id="cMonthly"></canvas></div>
+  <div class="card"><h2>Monthly comparison by year</h2><canvas id="cYear"></canvas></div>
+  <div class="card"><h2>Revenue by category</h2><canvas id="cCat"></canvas></div>
+  <div class="card"><h2>Revenue by region</h2><canvas id="cReg"></canvas></div>
+  <div class="card"><h2>Customer segments (revenue)</h2><canvas id="cSeg"></canvas></div>
+  <div class="card wide"><h2>Top-selling products</h2><table id="tTop"></table>
+   <p class="note">Ranks the 30 highest-revenue products in the whole dataset, within the current filters. Orders, average order value and customers ignore the category filter.</p></div>
+ </div>
+</main>
+<script src="data/data.js"></script>
+<script>
+const D = window.DASH, $ = id => document.getElementById(id);
+const idx = t => Object.fromEntries(t.cols.map((c, i) => [c, i]));
+const X = idx(D.cube), O = idx(D.order_cube), S = idx(D.segments), P = idx(D.products);
+const fmt = n => Math.round(n).toLocaleString("en-IN");
+const PAL = ["#0f5257", "#e0a526", "#c8553d", "#6a8caf", "#7aa66b", "#8c6bb1", "#b5835a", "#4aa3a8", "#999"];
+const uniq = (t, i) => [...new Set(t.rows.map(r => r[i]))].sort();
+const months = uniq(D.cube, X.year_month);
+const F = {from: $("from"), to: $("to"), cat: $("cat"), seg: $("seg"), reg: $("reg")};
+const fill = (el, vals, all) => el.innerHTML = (all ? '<option value="">All</option>' : "") + vals.map(v => `<option>${v}</option>`).join("");
+function init() {
+  fill(F.from, months); fill(F.to, months);
+  fill(F.cat, uniq(D.cube, X.category), 1); fill(F.seg, uniq(D.cube, X.segment), 1); fill(F.reg, uniq(D.cube, X.region), 1);
+  reset();
+  Object.values(F).forEach(e => e.addEventListener("change", render));
+  $("reset").onclick = () => { reset(); render(); };
+}
+function reset() { F.from.value = months[0]; F.to.value = months.at(-1); F.cat.value = F.seg.value = F.reg.value = ""; }
+const ok = (r, m, cat) => r[m.year_month] >= F.from.value && r[m.year_month] <= F.to.value &&
+  (!F.reg.value || r[m.region] === F.reg.value) && (!F.seg.value || r[m.segment] === F.seg.value) &&
+  (!cat || !F.cat.value || r[m.category] === F.cat.value);
+function group(rows, m, key, val) {
+  const g = new Map();
+  rows.forEach(r => g.set(r[m[key]], (g.get(r[m[key]]) || 0) + r[m[val]]));
+  return g;
+}
+const charts = {};
+function draw(id, type, labels, datasets, opt = {}) {
+  charts[id]?.destroy();
+  Chart.defaults.color = getComputedStyle(document.body).getPropertyValue("--mut");
+  charts[id] = new Chart($(id), {type, data: {labels, datasets}, options: Object.assign(
+    {responsive: true, plugins: {legend: {display: datasets.length > 1 || type === "doughnut"}}}, opt)});
+}
+function render() {
+  const rs = D.cube.rows.filter(r => ok(r, X, true));
+  const os = D.order_cube.rows.filter(r => ok(r, O, false));
+  const cs = D.segments.rows.filter(r => (!F.reg.value || r[S.region] === F.reg.value) && (!F.seg.value || r[S.segment] === F.seg.value));
+  const rev = rs.reduce((a, r) => a + r[X.revenue], 0), units = rs.reduce((a, r) => a + r[X.units], 0);
+  const orders = os.reduce((a, r) => a + r[O.orders], 0), orev = os.reduce((a, r) => a + r[O.revenue], 0);
+  const cust = cs.reduce((a, r) => a + r[S.customers], 0);
+  $("kpis").innerHTML = [["Total revenue", fmt(rev)], ["Units sold", fmt(units)], ["Orders", fmt(orders)],
+    ["Avg. order value", orders ? fmt(orev / orders) : "0"], ["Customers", fmt(cust)]]
+    .map(([l, v]) => `<div class="kpi"><b>${v}</b><span>${l}</span></div>`).join("");
+
+  const mo = group(rs, X, "year_month", "revenue"), ml = [...mo.keys()].sort();
+  draw("cMonthly", "line", ml, [{label: "Revenue", data: ml.map(k => mo.get(k)), borderColor: PAL[0], backgroundColor: PAL[0], tension: .25, pointRadius: 2}]);
+
+  const years = [...new Set(ml.map(m => m.slice(0, 4)))];
+  const MN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  draw("cYear", "bar", MN, years.map((y, i) => ({label: y, backgroundColor: PAL[i % PAL.length],
+    data: MN.map((_, k) => mo.get(`${y}-${String(k + 1).padStart(2, "0")}`) || 0)})));
+
+  const bar = (id, key, col) => { const g = [...group(rs, X, key, "revenue")].sort((a, b) => b[1] - a[1]);
+    draw(id, "bar", g.map(e => e[0]), [{label: "Revenue", data: g.map(e => e[1]), backgroundColor: col}], {indexAxis: "y"}); };
+  bar("cCat", "category", PAL[1]); bar("cReg", "region", PAL[3]);
+  const sg = [...group(rs, X, "segment", "revenue")];
+  draw("cSeg", "doughnut", sg.map(e => e[0]), [{data: sg.map(e => e[1]), backgroundColor: PAL, borderWidth: 0}]);
+
+  const pr = D.products.rows.filter(r => ok(r, P, true)), pm = new Map();
+  pr.forEach(r => { const o = pm.get(r[P.product_name]) || {c: r[P.category], rev: 0, u: 0, l: 0};
+    o.rev += r[P.revenue]; o.u += r[P.units]; o.l += r[P.lines]; pm.set(r[P.product_name], o); });
+  const top = [...pm].sort((a, b) => b[1].rev - a[1].rev).slice(0, 10);
+  $("tTop").innerHTML = "<tr><th>Product</th><th>Category</th><th class='n'>Units</th><th class='n'>Order lines</th><th class='n'>Revenue</th></tr>" +
+    (top.map(([n, o]) => `<tr><td>${n}</td><td>${o.c}</td><td class="n">${fmt(o.u)}</td><td class="n">${fmt(o.l)}</td><td class="n">${fmt(o.rev)}</td></tr>`).join("") || "<tr><td colspan=5>No data for these filters. Widen the date range or reset filters.</td></tr>");
+}
+init(); render();
+</script>
+</body>
+</html>
