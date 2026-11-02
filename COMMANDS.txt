@@ -1,0 +1,104 @@
+=====================================================================
+ E-COMMERCE BIG DATA ANALYTICS - TERMINAL COMMANDS (Ubuntu / WSL2)
+ Run every command from the project root: ecommerce-bigdata/
+=====================================================================
+
+----- A. ONE-TIME INSTALLATION -------------------------------------
+sudo apt update
+sudo apt install -y openjdk-11-jdk ssh pdsh python3 python3-pip python3-venv wget
+java -version
+
+# --- Hadoop 3.3.6 ---
+wget https://archive.apache.org/dist/hadoop/common/hadoop-3.3.6/hadoop-3.3.6.tar.gz
+tar -xzf hadoop-3.3.6.tar.gz && sudo mv hadoop-3.3.6 /opt/hadoop
+
+# --- Spark 3.5.1 ---
+wget https://archive.apache.org/dist/spark/spark-3.5.1/spark-3.5.1-bin-hadoop3.tgz
+tar -xzf spark-3.5.1-bin-hadoop3.tgz && sudo mv spark-3.5.1-bin-hadoop3 /opt/spark
+
+# --- environment variables ---
+cat >> ~/.bashrc <<'EOT'
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export HADOOP_HOME=/opt/hadoop
+export SPARK_HOME=/opt/spark
+export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$SPARK_HOME/bin
+EOT
+source ~/.bashrc
+
+# --- passwordless ssh (needed by start-dfs.sh) ---
+ssh-keygen -t rsa -P "" -f ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys
+sudo service ssh start && ssh localhost exit
+
+# --- Hadoop single-node configuration ---
+echo 'export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64' >> $HADOOP_HOME/etc/hadoop/hadoop-env.sh
+cat > $HADOOP_HOME/etc/hadoop/core-site.xml <<'EOT'
+<configuration><property><name>fs.defaultFS</name><value>hdfs://localhost:9000</value></property></configuration>
+EOT
+cat > $HADOOP_HOME/etc/hadoop/hdfs-site.xml <<'EOT'
+<configuration>
+ <property><name>dfs.replication</name><value>1</value></property>
+ <property><name>dfs.namenode.name.dir</name><value>file:///home/$USER/hadoop_data/namenode</value></property>
+ <property><name>dfs.datanode.data.dir</name><value>file:///home/$USER/hadoop_data/datanode</value></property>
+</configuration>
+EOT
+# (replace $USER above with your actual username if the path is not expanded)
+mkdir -p ~/hadoop_data/namenode ~/hadoop_data/datanode
+hdfs namenode -format
+
+# --- Python environment ---
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+
+----- B. START HADOOP ----------------------------------------------
+start-dfs.sh
+jps                                   # expect NameNode, DataNode, SecondaryNameNode
+# HDFS web UI: http://localhost:9870
+
+----- C. GET THE DATASET (choose one) ------------------------------
+python backend/dataset/generate_synthetic.py --rows 500000        # synthetic, offline, scalable
+python backend/dataset/download_dataset.py                        # real UCI Online Retail II (~1M rows)
+head -5 data/raw/ecommerce_raw.csv
+
+----- D. STORE IN HDFS ---------------------------------------------
+bash backend/hadoop/hdfs_setup.sh data/raw/ecommerce_raw.csv
+hdfs dfs -ls -h /ecommerce/raw
+hdfs dfs -cat /ecommerce/raw/ecommerce_raw.csv | head -3
+
+----- E. SPARK PROCESSING ------------------------------------------
+# E1. Reading from HDFS (recommended for the demo)
+spark-submit --master local[*] backend/spark/spark_pipeline.py \
+  --input hdfs://localhost:9000/ecommerce/raw/ecommerce_raw.csv \
+  --processed hdfs://localhost:9000/ecommerce/processed/sales_clean
+hdfs dfs -ls /ecommerce/processed/sales_clean
+
+# E2. Local mode (no Hadoop needed)
+python backend/spark/spark_pipeline.py --input data/raw/ecommerce_raw.csv
+
+# Spark UI while a job runs: http://localhost:4040
+
+----- F. PYTHON ANALYTICS + EXPORTS --------------------------------
+python backend/analytics/build_outputs.py
+cat backend/outputs/summary_report.txt
+
+----- G. FRONTEND --------------------------------------------------
+python -m http.server 8080 --directory frontend/web_dashboard     # open http://localhost:8080
+# (or just double-click frontend/web_dashboard/index.html)
+# Power BI: import the CSV files in frontend/powerbi/data/  (see frontend/powerbi/POWERBI_GUIDE.md)
+
+----- H. TESTS -----------------------------------------------------
+pytest -v backend/tests
+
+----- I. ONE-COMMAND RUN -------------------------------------------
+bash run_all.sh synthetic 500000 local
+bash run_all.sh synthetic 2000000 hdfs
+bash run_all.sh real 0 hdfs
+
+----- J. STOP HADOOP -----------------------------------------------
+stop-dfs.sh
+
+----- K. TROUBLESHOOTING -------------------------------------------
+# "Connection refused" on localhost:9000  -> start-dfs.sh not running / run jps
+# "JAVA_HOME is not set"                  -> re-check hadoop-env.sh and ~/.bashrc
+# Spark out of memory                     -> add: --driver-memory 4g
+# Reformat HDFS (wipes data)              -> stop-dfs.sh; rm -rf ~/hadoop_data/*; hdfs namenode -format

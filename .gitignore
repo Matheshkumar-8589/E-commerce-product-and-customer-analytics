@@ -1,0 +1,5 @@
+venv/
+data/processed/
+__pycache__/
+metastore_db/
+spark-warehouse/
