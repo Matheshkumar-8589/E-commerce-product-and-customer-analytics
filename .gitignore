@@ -3,3 +3,10 @@ data/processed/
 __pycache__/
 metastore_db/
 spark-warehouse/
+spark-4.3.0-bin-hadoop3.zip
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
